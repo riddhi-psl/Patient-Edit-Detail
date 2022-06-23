@@ -1,0 +1,87 @@
+.App {
+  text-transform: capitalize;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Personal__info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: top;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+.input_field {
+  display: flex;
+  margin: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input_field label {
+  padding-bottom: 5px;
+  font-size: 1rem;
+  margin-right: .5rem;
+}
+
+.input_field input {
+  border-radius: 5px;
+  height: 2em;
+  border: 1px black solid;
+}
+
+.gender label {
+  padding-bottom: 5px;
+  font-size: 1rem;
+  margin-right: .5rem;
+}
+
+.radio_btn {
+  width: 11rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.submit_btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.059);
+}
+
+.submit_btn:hover {
+  background-color: aquamarine;
+}
+
+
+
+/* UI component */
+.snackbar {
+  border-radius: 10px;
+  margin-top: 5rem;
+  display: flex;
+  color: black;
+  background-color: rgb(179, 249, 73);
+  padding: 1.2em;
+  font-size: 0.8rem;
+  align-items: center;
+}
+
+.close_btn {
+  background-color: transparent;
+  border: none;
+  margin-left: 1rem;
+  font-size: larger;
+}
